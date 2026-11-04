@@ -12,4 +12,3 @@ document.querySelector("button").addEventListener("click", function (e) {
     message.style.visibility = "visible";
 });
 // --- that the too tip still shows 
-// ---
