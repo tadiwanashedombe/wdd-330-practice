@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="styles/form_validation.css">
+<script src="scripts/form_validation.js" defer></script>
+<h1>Form Validation</h1>
+
+<main>
+    <form id="myForm">
+
+        <h3>Future Value</h3>
+        <div class="gridform">
+            <label for="principle">Principle: </label>
+            <input type="number" id="principle" required step="any">
+
+            <label for="c_principle">Confirm Principle: </label>
+            <input type="number" id="c_principle" required step="any">
+
+            <label for="annualrate">Annual rate: </label>
+            <input type="number" id="annualrate" placeholder=".08" required step="any">
+
+            <label for="years">Years: </label>
+            <input type="number" id="years" required min="1" step="1">
+
+            <label for="periods">Periods: </label>
+            <input type="number" id="periods" required min="1">
+        </div>
+        <button type="submit">Compute Future Value</button>
+    </form>
+    <hr> Future Value: <span id="output"></span>
+</main>
+<footer>
+    &copy;<span id="theyear"></span> • Antonia Francesca • Utah • WDD</footer>

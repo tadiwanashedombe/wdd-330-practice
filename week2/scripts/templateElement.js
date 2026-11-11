@@ -9,7 +9,7 @@ const products = [
     name: "Smart Watch",
     description: "Track your fitness and stay connected.",
     price: "$149.99",
-    image: "https://placehold.co/200x100?text=Smart Watch"
+    image: "https://placehold.co/200x100?text=SDombe Watch"
   },
   {
     name: "Portable Charger",
